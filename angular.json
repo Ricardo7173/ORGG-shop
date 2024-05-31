@@ -85,10 +85,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ORGG-shop:build:production"
+              "buildTarget": "ORGG-shop:build:production"
             },
             "development": {
-              "browserTarget": "ORGG-shop:build:development"
+              "buildTarget": "ORGG-shop:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -96,7 +96,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ORGG-shop:build"
+            "buildTarget": "ORGG-shop:build"
           }
         },
         "test": {
