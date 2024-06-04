@@ -10,8 +10,8 @@ import { MenuItem } from "primeng/api";
 export class NavbarComponent {
   items: MenuItem[] | any;
 
-  ngOnIt() {
-    this.items =[
+  ngOnInit() {
+    this.items = [
       {
         items: [
           {
@@ -19,12 +19,11 @@ export class NavbarComponent {
             icon: 'pi pi-sign-in',
           },
           {
-            label: 'Ingresar',
+            label: 'Registrar',
             icon: 'pi pi-user-plus',
           },
         ],
       },
     ];
   }
-
 }
