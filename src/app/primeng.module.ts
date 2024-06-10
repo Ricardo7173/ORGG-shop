@@ -9,9 +9,17 @@ import { MenuModule } from "primeng/menu";
 import { CardModule } from "primeng/card";
 import { InputTextModule } from "primeng/inputtext";
 import { ToastModule } from 'primeng/toast';
+import { InputTextareaModule } from "primeng/inputtextarea";
+import { ConfirmPopupModule } from "primeng/confirmpopup";
+import { DialogModule } from "primeng/dialog";
+import { ImageModule } from "primeng/image";
+import { FileUploadModule } from "primeng/fileupload";
+import { TableModule } from 'primeng/table';
+import { TagModule } from 'primeng/tag';
+import { RatingModule } from 'primeng/rating';
+import { DropdownModule } from 'primeng/dropdown';
 
-
-//Módulos PrimeNg
+// Módulos PrimeNg
 const modPrime: any = [
   AvatarModule,
   ButtonModule,
@@ -21,7 +29,16 @@ const modPrime: any = [
   MenuModule,
   CardModule,
   InputTextModule,
-  ToastModule
+  ToastModule,
+  InputTextareaModule,
+  ConfirmPopupModule,
+  DialogModule,
+  ImageModule,
+  FileUploadModule,
+  TableModule,
+  TagModule,
+  RatingModule,
+  DropdownModule
 ];
 
 @NgModule({
@@ -30,7 +47,7 @@ const modPrime: any = [
     CommonModule,
     modPrime
   ],
-  exports:[
+  exports: [
     modPrime
   ]
 })
